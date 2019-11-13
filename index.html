@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>RPS - HTML</title>
+    </head>
+
+    <body>
+        <h3>Which would you like to play?</h3>
+        <form>
+            <input type="radio" name="choice" value="2"> Scissors<br>
+            <input type="radio" name="choice" value="1">
+            Paper<br>
+            <input type="radio" name="choice" value="0">    Rock<br>
+            <input type="button" value="submit" 
+            onclick="chooseGesture()">
+        </form>
+        
+        <p id="userOutput"></p>
+        <p id="computerOutput"></p>
+        <p id="result"></p>
+        
+    <link rel="stylesheet" href="rps_html.css">
+    <script src="rps_html.js"></script>
+    </body>
+</html>

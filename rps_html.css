@@ -1,0 +1,15 @@
+body
+    {
+    background-color:azure;
+    }
+
+p
+    {
+    font-size: 20px;
+    color: green;
+    }
+
+#result
+    {
+    color: red;
+    }
